@@ -9,5 +9,7 @@ namespace ZyferaAssigment.Business.Abstract
 {
     public interface IStudentService:IGenericService<Student>
     {
+        public Student GetByStdNumber(string stdNumber);
+
     }
 }

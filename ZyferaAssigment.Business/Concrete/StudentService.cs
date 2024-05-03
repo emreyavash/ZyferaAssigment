@@ -28,5 +28,11 @@ namespace ZyferaAssigment.Business.Concrete
             var result = _studentDal.GetAll();
             return result;
         }
+
+        public Student GetByStdNumber(string stdNumber)
+        {
+            var result = _studentDal.Get(x => x.StdNumber == stdNumber);
+            return result;
+        }
     }
 }

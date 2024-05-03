@@ -27,6 +27,11 @@ namespace ZyferaAssigment.DataAccess.EFRepository
             _context.SaveChanges();
         }
 
+        public TEntity Get(Expression<Func<TEntity, bool>> filter)
+        {
+            return _context.Set<TEntity>().FirstOrDefault(filter);
+        }
+
         public List<TEntity> GetAll(Expression<Func<TEntity, bool>> filter=null)
         {
             return filter == null ? _context.Set<TEntity>().ToList():_context.Set<TEntity>().Where(filter).ToList();

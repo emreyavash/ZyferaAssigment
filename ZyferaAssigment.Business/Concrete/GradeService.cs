@@ -12,6 +12,12 @@ namespace ZyferaAssigment.Business.Concrete
     public class GradeService : IGradeService
     {
         private readonly IGradeDal _gradeDal;
+
+        public GradeService(IGradeDal gradeDal)
+        {
+            _gradeDal = gradeDal;
+        }
+
         public void Add(Grade entity)
         {
             _gradeDal.Add(entity);

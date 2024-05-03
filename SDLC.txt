@@ -1,0 +1,8 @@
+1. Ýlk olarak projede kullanacaðým teknolojiyi ve kullanacaðým database'i belirledim.
+2. Projede kullanýlacak gereksinimleri ve sistem tasarýmýný belirledim. 
+3. Projenin mimarisini oluþturdum. Kod tekrarý yapmaktan ve proje büyüdükçe yönetiminin daha kolay yapabileceðim bir sistem kurdum.
+4. Veri modellerine karar verdim.
+5. Projenin belli özelliklerini çýkartýktan geliþtirme aþamasýna geçtim.
+6. Database iþlemi için EntityFramework ORMini kurdum.
+7. Projenin kodlamasýný geçip katmanlarý bir araya getirdim.
+8. Kodlama iþlemini bitirdikten sonra test aþamasýna geçip projenin doðru bir þekilde çalýþtýðýný test ettim.
