@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ZyferaAssigment.DataAccess\ZyferaAssigment.DataAccess.csproj" />
+    <ProjectReference Include="..\ZyferaAssigment.Entity\ZyferaAssigment.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

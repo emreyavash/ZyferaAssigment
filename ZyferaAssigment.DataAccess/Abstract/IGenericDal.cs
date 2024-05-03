@@ -10,6 +10,6 @@ namespace ZyferaAssigment.DataAccess.Abstract
     public interface IGenericDal<T> where T : class,new()
     {
         void Add(T entity);
-        List<T> GetAll(Expression<Func<T,bool>> filter);
+        List<T> GetAll(Expression<Func<T,bool>> filter=null);
     }
 }
